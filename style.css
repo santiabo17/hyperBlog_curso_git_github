@@ -1,10 +1,40 @@
 body {
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
 }
 
 .container {
-    margin: 20px;
-    padding: 20px;
+    padding: 0px;
+}
+
+.cabecera {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.head_title {
+    font-size: 80px;
+    margin-bottom: 20px;
+}
+
+.sections {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.sections > div {
+    background-color: rgb(237, 237, 237);
+    width: 20%;
+    padding: 8px;
+    border: solid 1px black;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.sections > div:hover {
+    background-color: rgb(198, 198, 198);
+    width: 30%;
 }
 
 .post {
