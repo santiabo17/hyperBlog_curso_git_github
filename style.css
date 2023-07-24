@@ -24,6 +24,17 @@ body {
     width: 100%;
 }
 
+.sections > div:first-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 30%;
+    margin-left: 10px;
+}
+
 .sections > div {
     background-color: rgb(237, 237, 237);
     width: 20%;
