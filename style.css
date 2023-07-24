@@ -2,6 +2,7 @@ body {
     font-family: 'Times New Roman', Times, serif;
     font-weight: 100;
     color: black;
+    padding: 0px;
 }
 
 .container {
@@ -60,4 +61,14 @@ body {
 .info_post {
     display: flex;
     justify-content: space-between;
+}
+
+.footer {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    width: 100%;
+    margin-top: 15px;
 }
